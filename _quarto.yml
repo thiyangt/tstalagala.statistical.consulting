@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "MIS4141 Statistical Consulting"
+  site-url: "https://thiyangt.github.io/tstalagala.statistical.consulting/"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - ga.qmd
+      - ia.qmd
+      - ma.qmd
+
+
+format:
+  html:
+    css: styles.css
+    toc: true
+
+editor: visual

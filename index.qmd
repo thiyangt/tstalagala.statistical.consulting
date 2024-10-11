@@ -1,0 +1,57 @@
+---
+title: "MIS4141 Statistical Consulting"
+---
+
+This course website serves as the home for lecture materials for MIS4241: Statistical Consulting, a course offered as part of the BSc Honours Degree in Financial Mathematics and Industrial Statistics in 2024 at the Faculty of Science, University of Ruhuna, Sri Lanka.
+
+## Your Lecturer-in-charge:
+
+[Dr Thiyanga S. Talagala](https://thiyanga.netlify.app/), Senior Lecturer, Department of Statistics, University of Sri Jayewardenepura.
+
+## Contact:
+
+ttlagala@sjp.ac.lk
+
+## Mode of delivery:
+
+Online via Zoom
+
+
+## Course Plan:
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# Load necessary libraries
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+# Create the data vectors
+wn <- c("1", "")
+date <- c("2024 - 10 - 11", "")
+time <- c("TBC", "")
+topic <- c("1. Introduction to Statistical Consulting", "2. Visual Communication")
+Slides <- c("", "")
+reading <- c("Taplin, R. H. (2003). Teaching statistical consulting before statistical methodology. Australian & New Zealand Journal of Statistics, 45(2), 141-152.", "")
+
+# Create the DataFrame
+df <- data.frame(wn, date, time, topic, Slides, reading, stringsAsFactors = FALSE)
+colnames(df) <- c("Week Number",
+                  "Date",
+                  "Time",
+                  "Topic",
+                  "Slides",
+                  "Reading")
+
+# Display the DataFrame with fixed column widths
+df %>%
+  kable("html", escape = FALSE) %>%
+  kable_styling("striped", full_width = F) %>%
+  column_spec(1, width = "50px") %>%  # Adjust the width of the first column
+  column_spec(2, width = "120px") %>% # Adjust the width of the date column
+  column_spec(3, width = "50px") %>%  # Adjust the width of the time column
+  column_spec(4, width = "300px") %>% # Adjust the width of the topic column
+  column_spec(5, width = "50px") %>%  # Adjust the width of the Slides column
+  column_spec(6, width = "400px")     # Adjust the width of the reading column
+
+
+```

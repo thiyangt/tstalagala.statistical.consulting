@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+This course website serves as the home for lecture materials for MIS4241: Statistical Consulting, a course offered as part of the BSc Honours Degree in Financial Mathematics and Industrial Statistics in 2024 at the Faculty of Science, University of Ruhuna, Sri Lanka. The lecture notes and content on this website have been prepared by Dr. Thiyanga Talagala, and all materials are copyrighted under Dr. Thiyanga S. Talagala.
