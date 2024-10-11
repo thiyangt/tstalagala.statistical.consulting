@@ -10,14 +10,13 @@ This course website serves as the home for lecture materials for MIS4241: Statis
 
 ## Contact:
 
-ttlagala@sjp.ac.lk
+ttlagala\@sjp.ac.lk
 
 ## Mode of delivery:
 
 Online via Zoom
 
-
-## Course Plan:
+## Here’s your roadmap for the semester!
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 # Load necessary libraries
@@ -28,7 +27,7 @@ library(kableExtra)
 # Create the data vectors
 wn <- c("1", "")
 date <- c("2024 - 10 - 11", "")
-time <- c("TBC", "")
+time <- c("3pm-5pm", "")
 topic <- c("1. Introduction to Statistical Consulting", "2. Visual Communication")
 Slides <- c("", "")
 reading <- c("Taplin, R. H. (2003). Teaching statistical consulting before statistical methodology. Australian & New Zealand Journal of Statistics, 45(2), 141-152.", "")
@@ -55,3 +54,7 @@ df %>%
 
 
 ```
+
+# Assignment: 20%
+
+TBA

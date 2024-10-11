@@ -10,10 +10,6 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - ga.qmd
-      - ia.qmd
-      - ma.qmd
-
 
 format:
   html:
