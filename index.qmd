@@ -16,6 +16,20 @@ ttlagala\@sjp.ac.lk
 
 Online via Zoom
 
+## LMS
+
+Link: http://scilms.ruh.ac.lk/science/login/index.php
+
+## Main Refrence Book
+
+**Book name:**
+
+Talagala, T. S. (2024). Practical Text Book Guide for Statistical Consulting. Retrieved from [https://thiyangt.github.io/tstalagala-MIS4141/](https://thiyangt.github.io/tstalagala-MIS4141/).
+
+**Book code:**
+
+TST
+
 ## Here’s your roadmap for the semester!
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -28,17 +42,17 @@ library(kableExtra)
 wn <- c("1", "")
 date <- c("2024 - 10 - 11", "")
 time <- c("3pm-5pm", "")
-topic <- c("1. Introduction to Statistical Consulting", "2. Visual Communication")
-Slides <- c("", "")
+topic <- c("1. Introduction to Statistical Consulting", "2. Communication with Data")
+Note <- c("TST: Chapter 1", "TST: Chapter 2")
 reading <- c("Taplin, R. H. (2003). Teaching statistical consulting before statistical methodology. Australian & New Zealand Journal of Statistics, 45(2), 141-152.", "")
 
 # Create the DataFrame
-df <- data.frame(wn, date, time, topic, Slides, reading, stringsAsFactors = FALSE)
+df <- data.frame(wn, date, time, topic, Note, reading, stringsAsFactors = FALSE)
 colnames(df) <- c("Week Number",
                   "Date",
                   "Time",
                   "Topic",
-                  "Slides",
+                  "Note",
                   "Reading")
 
 # Display the DataFrame with fixed column widths
