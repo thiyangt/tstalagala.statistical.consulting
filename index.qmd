@@ -24,7 +24,7 @@ Link: http://scilms.ruh.ac.lk/science/login/index.php
 
 **Book name:**
 
-Talagala, T. S. (2024). Practical Text Book Guide for Statistical Consulting. Retrieved from [https://thiyangt.github.io/tstalagala-MIS4141/](https://thiyangt.github.io/tstalagala-MIS4141/).
+Talagala, T. S. (2024). Practical Text Book Guide for Statistical Consulting. Retrieved from <https://thiyangt.github.io/tstalagala-MIS4141/>.
 
 **Book code:**
 
@@ -39,12 +39,12 @@ library(knitr)
 library(kableExtra)
 
 # Create the data vectors
-wn <- c("1", "")
-date <- c("2024 - 10 - 11", "")
-time <- c("3pm-5pm", "")
-topic <- c("1. Introduction to Statistical Consulting", "2. Communication with Data")
+wn <- c("1", "2")
+date <- c("2024 - 10 - 11", "2024 - 10 - 15")
+time <- c("3pm-5pm", "3pm - 5pm")
+topic <- c("1. Introduction to Statistical Consulting", "2. Data Quality Analysis with R")
 Note <- c("TST: Chapter 1", "TST: Chapter 2")
-reading <- c("Taplin, R. H. (2003). Teaching statistical consulting before statistical methodology. Australian & New Zealand Journal of Statistics, 45(2), 141-152.", "")
+reading <- c("Taplin, R. H. (2003). Teaching statistical consulting before statistical methodology. Australian & New Zealand Journal of Statistics, 45(2), 141-152.", "", "[dlookr](https://choonghyunryu.github.io/dlookr/)")
 
 # Create the DataFrame
 df <- data.frame(wn, date, time, topic, Note, reading, stringsAsFactors = FALSE)
